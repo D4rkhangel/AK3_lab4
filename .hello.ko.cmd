@@ -1,0 +1,1 @@
+cmd_/home/d4rk/repos/busybox/_install/examples/test2/hello.ko := ccache arm-none-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/d4rk/repos/busybox/_install/examples/test2/hello.ko /home/d4rk/repos/busybox/_install/examples/test2/hello.o /home/d4rk/repos/busybox/_install/examples/test2/hello.mod.o ;  true
